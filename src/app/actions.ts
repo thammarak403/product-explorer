@@ -1,7 +1,7 @@
 "use server";
 
 import { auth } from "@/auth";
-import { deleteProduct, updateProduct } from "@/lib/products";
+import { deleteProduct, updateProduct } from "@/lib/demo-products";
 import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 

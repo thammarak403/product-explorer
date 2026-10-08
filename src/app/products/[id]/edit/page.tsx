@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { auth } from "@/auth";
-import { getProduct } from "@/lib/products";
+import { getProduct } from "@/lib/demo-products";
 import { updateProductAction } from "@/app/actions";
 
 type EditProductPageProps = {

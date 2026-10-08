@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { auth } from "@/auth";
-import { getProducts } from "@/lib/products";
+import { getProducts } from "@/lib/demo-products";
 import { AuthButtons } from "./auth-buttons";
 
 export default async function HomePage() {
